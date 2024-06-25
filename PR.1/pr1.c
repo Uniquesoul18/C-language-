@@ -9,7 +9,7 @@ void main ()
  	printf("Enter celsius :");
  	scanf("%f",&celsius);
  	 
- 	fahrenheit=(9/5*celsius)+32;
+ 	fahrenheit=(1.8*celsius)+32;
  	printf("fahrenheit:%f",fahrenheit);
  	
  	
