@@ -5,16 +5,11 @@ void main()
 {
 	int X,Y,Z;
 	printf("Enter Number :");
-	scanf("%d",&X);
-	printf("Enter Number:");
-	scanf("%d",&Y);
-	(X>Y)?printf("Y is minimun\n"):printf("X is minimum\n");
+	scanf("%d%d%d",&X,&Y,&Z);
 	
-	printf("Enter Number:");
-	scanf("%d,&Z");
-	printf("Enter Number:");
-	scanf("%d",&Y);
-	(Z>Y)?printf("Z is minimum"):printf ("Y is minimum");
 	
+	(X<Y)?(X<Z)?printf("X is minimum"):printf("Z is minimum"): (Y<Z)?printf("Y is minimum"):printf("Z is minimum")  ;
+	
+
 
 }
