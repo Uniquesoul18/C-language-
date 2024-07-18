@@ -71,8 +71,17 @@ void main()
 	 }	
 	 else
 	 {
+	 	if(Grade=='F')
+	 	{
+		 
 	 	printf("Please Try next time");
-	 }		
+	    }
+	    else
+	    {
+	    	printf("Enter valid score\n");
+		}
+	 }	
+	 	
 			
 	
 
