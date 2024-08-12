@@ -3,15 +3,15 @@
 
 void main()
 {
-	int i, j;
-    char ch;
+	char i, j;
+ 
     
-    for (i = 1; i <= 5; ++i)
+    for (i ='A' ; i <='E'; ++i)
 	 {
-        for (j = 1; j <= i; ++j) 
-		{
-            ch = 'A' + j - 1; 
-            printf("%c ", ch);
+        for (j ='A' ; j <= i; ++j) 
+	{
+		printf("%c",j);
+           
         }
         printf("\n"); 
     }	            
