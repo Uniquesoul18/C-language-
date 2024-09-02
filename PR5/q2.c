@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() 
+int main() 
 {
     int n1,n2,i,j,max;
 
@@ -23,25 +23,22 @@ void main()
           scanf("%d", &a[i][j]);
         }
     }
-
-    // Initialize max with the first element of the array
     max = a[0][0];
 
-    // Find the maximum element
+    // Finding the maximum element
     for (i=1;i<n1;i++) 
 	{
 		for(j=1;j<n2;j++)
-	   {
-		
-         if (a[i][j]>max) 
 		 {
-            max = a[i][j];
-         }
-       }
-    }
-
-    // Output the maximum element
+				
+		         if (a[i][j]>max) 
+			 {
+		            max = a[i][j];
+		         }
+	    	 }
+        }
     printf("The largest element is: %d\n", max);
-
+	
+return 0;
 }
 
